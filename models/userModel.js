@@ -31,12 +31,6 @@ const userSchema = new mongoose.Schema({
         type:Number,
         max:10,
         min:0
-    },
-    oround:{
-        type:Number
-    },
-    avg:{
-        type:Number
     }
 });
 
